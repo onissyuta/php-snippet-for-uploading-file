@@ -26,7 +26,7 @@ if(isset($_FILES['image'])){
     <hr>
     <ul>
     <?php foreach(scandir($upDir) as $file): ?>
-		<li><a href="../upDir/<?= $file ?>"><?= $file ?></a></li>
+		<li><a href="./upload/<?= $file ?>"><?= $file ?></a></li>
     <?php endforeach; ?>
     </ul>
 </body>
